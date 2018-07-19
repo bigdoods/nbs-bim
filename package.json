@@ -1,0 +1,33 @@
+{
+  "name": "nbs-bim",
+  "version": "1.0.0",
+  "description": "a client side library for nbs bim toolkit API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigdoods/nbs-bim.git"
+  },
+  "keywords": [
+    "nbs-bim-toolkit",
+    "nbs",
+    "bim",
+    "api",
+    "bimlauncher"
+  ],
+  "author": "John Egan (bigdoods)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bigdoods/nbs-bim/issues"
+  },
+  "homepage": "https://github.com/bigdoods/nbs-bim#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "superagent": "^3.8.1"
+  }
+}
